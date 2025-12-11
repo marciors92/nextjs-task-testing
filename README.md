@@ -1,5 +1,7 @@
 # 🚀 Next.js Task Testing (App Router & Unit Tests)
 
+Este projeto é uma demonstração prática de como implementar e testar uma aplicação web moderna usando o Next.js (App Router) e a biblioteca React. O foco principal é a Garantia de Qualidade, utilizando Testes Unitários com Jest e React Testing Library.
+
 ### 🛠️ Tecnologias e Conceitos Abordados
 * **Next.js 15 (App Router):** Utilização da nova arquitetura de rotas.
 * **TypeScript:** Tipagem completa da aplicação.
