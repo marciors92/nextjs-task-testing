@@ -1,41 +1,20 @@
-# 🚀 Next.js Task Testing (App Router & Unit Tests)
+# 🧪 Next.js Task Testing
 
-Este projeto é uma demonstração prática de como implementar e testar uma aplicação web moderna usando o Next.js (App Router) e a biblioteca React. O foco principal é a Garantia de Qualidade, utilizando Testes Unitários com Jest e React Testing Library.
+Gerenciador de tarefas desenvolvido com **Next.js** e **TypeScript**, focado em **Testes Automatizados (QA)** e robustez de código.
 
-### 🛠️ Tecnologias e Conceitos Abordados
-* **Next.js 15 (App Router):** Utilização da nova arquitetura de rotas.
-* **TypeScript:** Tipagem completa da aplicação.
-* **Jest & Testing Library:** Ambiente completo para testes unitários.
-* **Isolamento de Componentes:** Testes em **Server Components** (renderização e carregamento de dados) e **Client Components** (interações de usuário e estado).
-* **Hooks Customizados:** Teste isolado do hook `useContadorDeTarefas` utilizando `renderHook`.
-* **Mocking:** Simulação da camada de dados (`lib/tarefas.ts`) e isolamento de dependências externas (`jest.mock`).
+## 🚀 Tecnologias
+* **Next.js**: Framework principal.
+* **TypeScript**: Tipagem estrita para segurança.
+* **Jest & React Testing Library**: Suíte completa de testes.
+* **Tailwind CSS**: Estilização responsiva.
 
-### ⚙️ Instalação e Execução
+## 🛠️ Foco em Qualidade
+- **Testes Unitários**: Validação de lógica pura.
+- **Testes de Integração**: Simulação de comportamento do usuário.
+- **Coverage Reports**: Monitoramento de cobertura de código.
 
-Pré-requisitos: Node.js (18+) e npm ou yarn.
-
-1.  Clone o repositório:
-    ```bash
-    git clone [SEU_LINK_DO_REPOSITORIO]
-    cd nextjs-task-testing
-    ```
-
-2.  Instale as dependências:
-    ```bash
-    npm install
-    ```
-
-3.  Execute a aplicação (Desenvolvimento):
-    ```bash
-    npm run dev
-    ```
-
-### 5. Executando os Testes Unitários (Prova de Conceito)
-
-```markdown
-### ✅ Executando e Validando os Testes
-
-Para rodar todos os testes unitários e verificar a cobertura:
-
+## 🧪 Comandos
 ```bash
-npm run test
+npm install
+npm test           # Executa os testes
+npm run test:cov   # Gera relatório de cobertura
